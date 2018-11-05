@@ -1,0 +1,22 @@
+.container {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 3%;
+  grid-gap: .15em;
+}
+
+.search-container {
+  width: 100%;
+  margin-bottom: .15em;
+}
+
+.search-container > button {
+  width: 40%;
+  background-color: blue;
+  color: white;
+}
+
+.search-container > input {
+  width: 60%;
+}
